@@ -23,8 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let window = UIWindow(windowScene: windowScene)
                 window.overrideUserInterfaceStyle = UIUserInterfaceStyle.light
                 
-                let rootVC = AssignFirstViewController()
+                let rootVC = KakaoLoginViewController()
                 let navigationController = UINavigationController(rootViewController: rootVC)
+                navigationController.navigationBar.isHidden = true
                 
                 //첫번째 스택에 firstCV 추가
                 window.rootViewController = navigationController
