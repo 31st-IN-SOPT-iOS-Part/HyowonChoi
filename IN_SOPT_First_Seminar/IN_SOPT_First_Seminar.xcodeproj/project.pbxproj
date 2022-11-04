@@ -15,18 +15,38 @@
 		0219DF4428E805EB001F9103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0219DF4228E805EB001F9103 /* LaunchScreen.storyboard */; };
 		0219DF4C28E81593001F9103 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0219DF4B28E81593001F9103 /* FirstViewController.swift */; };
 		0219DF4F28E81BA0001F9103 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0219DF4E28E81BA0001F9103 /* SecondViewController.swift */; };
-		02327F3528EDFF3700EE7C6B /* KakaoLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02327F3428EDFF3700EE7C6B /* KakaoLoginViewController.swift */; };
-		02327F3728EDFF4300EE7C6B /* KakaoSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02327F3628EDFF4300EE7C6B /* KakaoSignupViewController.swift */; };
-		02327F3928EDFF5100EE7C6B /* KakaoWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02327F3828EDFF5100EE7C6B /* KakaoWelcomeViewController.swift */; };
+		02327F3528EDFF3700EE7C6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02327F3428EDFF3700EE7C6B /* LoginViewController.swift */; };
+		02327F3728EDFF4300EE7C6B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02327F3628EDFF4300EE7C6B /* SignupViewController.swift */; };
+		02327F3928EDFF5100EE7C6B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02327F3828EDFF5100EE7C6B /* WelcomeViewController.swift */; };
 		024247AA28F8730900E21138 /* MelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024247A628F8730900E21138 /* MelonViewController.swift */; };
 		024247AB28F8730900E21138 /* SecondLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024247A728F8730900E21138 /* SecondLayoutViewController.swift */; };
 		024247AC28F8730900E21138 /* FirstLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024247A828F8730900E21138 /* FirstLayoutViewController.swift */; };
 		024247AD28F8730900E21138 /* ScrollLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024247A928F8730900E21138 /* ScrollLayoutViewController.swift */; };
 		0242E3CC28F6EE570026050B /* SwiftyColor in Frameworks */ = {isa = PBXBuildFile; productRef = 0242E3CB28F6EE570026050B /* SwiftyColor */; };
 		0242E3CF28F6EE7D0026050B /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0242E3CE28F6EE7D0026050B /* Then */; };
-		0246FC6328F34950006560B5 /* KakaoFriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246FC6228F34950006560B5 /* KakaoFriendListViewController.swift */; };
-		0246FC6528F355AA006560B5 /* KakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246FC6428F355AA006560B5 /* KakaoProfileViewController.swift */; };
+		0246FC6328F34950006560B5 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246FC6228F34950006560B5 /* FriendListViewController.swift */; };
+		0246FC6528F355AA006560B5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0246FC6428F355AA006560B5 /* ProfileViewController.swift */; };
+		025D5EA629144D5E001B73CA /* MyProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EA529144D5E001B73CA /* MyProfileHeaderView.swift */; };
+		025D5EA829145913001B73CA /* ChatCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EA729145913001B73CA /* ChatCollectionModel.swift */; };
+		025D5EAA29146221001B73CA /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EA929146221001B73CA /* ChatCollectionViewCell.swift */; };
+		025D5EAC29147498001B73CA /* ChatCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EAB29147498001B73CA /* ChatCollectionReusableView.swift */; };
+		025D5EAE2914815B001B73CA /* GridPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EAD2914815B001B73CA /* GridPhotoViewController.swift */; };
+		025D5EB029148289001B73CA /* GridPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EAF29148289001B73CA /* GridPhotoModel.swift */; };
+		025D5EB2291488C0001B73CA /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D5EB1291488C0001B73CA /* GridCollectionViewCell.swift */; };
 		025EEF1C28F14D3A00625CF7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 025EEF1B28F14D3A00625CF7 /* SnapKit */; };
+		027010E82912E0D0003A8635 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027010E72912E0D0003A8635 /* FriendTableViewCell.swift */; };
+		029EAE5628FA7ED200C92CD3 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EAE5528FA7ED200C92CD3 /* DelegateViewController.swift */; };
+		029EAE5B28FA818700C92CD3 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EAE5A28FA818700C92CD3 /* MusicModel.swift */; };
+		029EAE6128FA8C8700C92CD3 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EAE6028FA8C8700C92CD3 /* MusicTableViewCell.swift */; };
+		029EAE6328FA8F4B00C92CD3 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EAE6228FA8F4B00C92CD3 /* MusicListViewController.swift */; };
+		029EAE6528FA9ED400C92CD3 /* MusicGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EAE6428FA9ED400C92CD3 /* MusicGridViewController.swift */; };
+		029EAE6828FAA03900C92CD3 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EAE6728FAA03900C92CD3 /* MusicCollectionViewCell.swift */; };
+		02A303ED291273E2003D7DBD /* FriendListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A303EC291273E2003D7DBD /* FriendListModel.swift */; };
+		02E9742A2910440A00DE37DA /* KaKaoTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E974292910440A00DE37DA /* KaKaoTabbarController.swift */; };
+		02E9742C2910453C00DE37DA /* ChatCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9742B2910453C00DE37DA /* ChatCollectionViewController.swift */; };
+		02E9742E291045AA00DE37DA /* SharpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9742D291045AA00DE37DA /* SharpViewController.swift */; };
+		02E97430291045BA00DE37DA /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9742F291045BA00DE37DA /* ShopViewController.swift */; };
+		02E97432291045CA00DE37DA /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E97431291045CA00DE37DA /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,15 +60,35 @@
 		0219DF4528E805EB001F9103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0219DF4B28E81593001F9103 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		0219DF4E28E81BA0001F9103 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		02327F3428EDFF3700EE7C6B /* KakaoLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginViewController.swift; sourceTree = "<group>"; };
-		02327F3628EDFF4300EE7C6B /* KakaoSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignupViewController.swift; sourceTree = "<group>"; };
-		02327F3828EDFF5100EE7C6B /* KakaoWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoWelcomeViewController.swift; sourceTree = "<group>"; };
+		02327F3428EDFF3700EE7C6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		02327F3628EDFF4300EE7C6B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		02327F3828EDFF5100EE7C6B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		024247A628F8730900E21138 /* MelonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MelonViewController.swift; sourceTree = "<group>"; };
 		024247A728F8730900E21138 /* SecondLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondLayoutViewController.swift; sourceTree = "<group>"; };
 		024247A828F8730900E21138 /* FirstLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLayoutViewController.swift; sourceTree = "<group>"; };
 		024247A928F8730900E21138 /* ScrollLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollLayoutViewController.swift; sourceTree = "<group>"; };
-		0246FC6228F34950006560B5 /* KakaoFriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoFriendListViewController.swift; sourceTree = "<group>"; };
-		0246FC6428F355AA006560B5 /* KakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoProfileViewController.swift; sourceTree = "<group>"; };
+		0246FC6228F34950006560B5 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		0246FC6428F355AA006560B5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		025D5EA529144D5E001B73CA /* MyProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileHeaderView.swift; sourceTree = "<group>"; };
+		025D5EA729145913001B73CA /* ChatCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionModel.swift; sourceTree = "<group>"; };
+		025D5EA929146221001B73CA /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		025D5EAB29147498001B73CA /* ChatCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionReusableView.swift; sourceTree = "<group>"; };
+		025D5EAD2914815B001B73CA /* GridPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPhotoViewController.swift; sourceTree = "<group>"; };
+		025D5EAF29148289001B73CA /* GridPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPhotoModel.swift; sourceTree = "<group>"; };
+		025D5EB1291488C0001B73CA /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		027010E72912E0D0003A8635 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		029EAE5528FA7ED200C92CD3 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		029EAE5A28FA818700C92CD3 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		029EAE6028FA8C8700C92CD3 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		029EAE6228FA8F4B00C92CD3 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		029EAE6428FA9ED400C92CD3 /* MusicGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGridViewController.swift; sourceTree = "<group>"; };
+		029EAE6728FAA03900C92CD3 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		02A303EC291273E2003D7DBD /* FriendListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListModel.swift; sourceTree = "<group>"; };
+		02E974292910440A00DE37DA /* KaKaoTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoTabbarController.swift; sourceTree = "<group>"; };
+		02E9742B2910453C00DE37DA /* ChatCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewController.swift; sourceTree = "<group>"; };
+		02E9742D291045AA00DE37DA /* SharpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpViewController.swift; sourceTree = "<group>"; };
+		02E9742F291045BA00DE37DA /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		02E97431291045CA00DE37DA /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +124,7 @@
 		0219DF3628E805E9001F9103 /* IN_SOPT_First_Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				029EAE5728FA7F3300C92CD3 /* Thrid_Seminar */,
 				024247A528F8730900E21138 /* Second_Seminar */,
 				0219DF3728E805E9001F9103 /* AppDelegate.swift */,
 				0219DF3928E805E9001F9103 /* SceneDelegate.swift */,
@@ -101,11 +142,19 @@
 		02327F3A28EDFF5B00EE7C6B /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				02327F3828EDFF5100EE7C6B /* KakaoWelcomeViewController.swift */,
-				02327F3628EDFF4300EE7C6B /* KakaoSignupViewController.swift */,
-				02327F3428EDFF3700EE7C6B /* KakaoLoginViewController.swift */,
-				0246FC6228F34950006560B5 /* KakaoFriendListViewController.swift */,
-				0246FC6428F355AA006560B5 /* KakaoProfileViewController.swift */,
+				027010E62912E0A1003A8635 /* Resuable */,
+				02A303EB291273CF003D7DBD /* Model */,
+				02327F3828EDFF5100EE7C6B /* WelcomeViewController.swift */,
+				02327F3628EDFF4300EE7C6B /* SignupViewController.swift */,
+				02327F3428EDFF3700EE7C6B /* LoginViewController.swift */,
+				0246FC6228F34950006560B5 /* FriendListViewController.swift */,
+				0246FC6428F355AA006560B5 /* ProfileViewController.swift */,
+				02E974292910440A00DE37DA /* KaKaoTabbarController.swift */,
+				02E9742B2910453C00DE37DA /* ChatCollectionViewController.swift */,
+				02E9742D291045AA00DE37DA /* SharpViewController.swift */,
+				02E9742F291045BA00DE37DA /* ShopViewController.swift */,
+				02E97431291045CA00DE37DA /* MoreViewController.swift */,
+				025D5EAD2914815B001B73CA /* GridPhotoViewController.swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -130,6 +179,65 @@
 			name = Second_Seminar;
 			path = IN_SOPT_First_Seminar/Second_Seminar;
 			sourceTree = SOURCE_ROOT;
+		};
+		027010E62912E0A1003A8635 /* Resuable */ = {
+			isa = PBXGroup;
+			children = (
+				027010E72912E0D0003A8635 /* FriendTableViewCell.swift */,
+				025D5EA529144D5E001B73CA /* MyProfileHeaderView.swift */,
+				025D5EA929146221001B73CA /* ChatCollectionViewCell.swift */,
+				025D5EAB29147498001B73CA /* ChatCollectionReusableView.swift */,
+				025D5EB1291488C0001B73CA /* GridCollectionViewCell.swift */,
+			);
+			path = Resuable;
+			sourceTree = "<group>";
+		};
+		029EAE5728FA7F3300C92CD3 /* Thrid_Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				029EAE6628FA9EDC00C92CD3 /* Resuable */,
+				029EAE5928FA813400C92CD3 /* ViewController */,
+				029EAE5828FA812B00C92CD3 /* Model */,
+				029EAE5528FA7ED200C92CD3 /* DelegateViewController.swift */,
+			);
+			path = Thrid_Seminar;
+			sourceTree = "<group>";
+		};
+		029EAE5828FA812B00C92CD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				029EAE5A28FA818700C92CD3 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		029EAE5928FA813400C92CD3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				029EAE6228FA8F4B00C92CD3 /* MusicListViewController.swift */,
+				029EAE6428FA9ED400C92CD3 /* MusicGridViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		029EAE6628FA9EDC00C92CD3 /* Resuable */ = {
+			isa = PBXGroup;
+			children = (
+				029EAE6028FA8C8700C92CD3 /* MusicTableViewCell.swift */,
+				029EAE6728FAA03900C92CD3 /* MusicCollectionViewCell.swift */,
+			);
+			path = Resuable;
+			sourceTree = "<group>";
+		};
+		02A303EB291273CF003D7DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02A303EC291273E2003D7DBD /* FriendListModel.swift */,
+				025D5EA729145913001B73CA /* ChatCollectionModel.swift */,
+				025D5EAF29148289001B73CA /* GridPhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -213,19 +321,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				024247AD28F8730900E21138 /* ScrollLayoutViewController.swift in Sources */,
+				025D5EAC29147498001B73CA /* ChatCollectionReusableView.swift in Sources */,
+				025D5EB029148289001B73CA /* GridPhotoModel.swift in Sources */,
+				02A303ED291273E2003D7DBD /* FriendListModel.swift in Sources */,
 				024247AB28F8730900E21138 /* SecondLayoutViewController.swift in Sources */,
-				02327F3528EDFF3700EE7C6B /* KakaoLoginViewController.swift in Sources */,
-				02327F3928EDFF5100EE7C6B /* KakaoWelcomeViewController.swift in Sources */,
+				02327F3528EDFF3700EE7C6B /* LoginViewController.swift in Sources */,
+				029EAE6528FA9ED400C92CD3 /* MusicGridViewController.swift in Sources */,
+				02327F3928EDFF5100EE7C6B /* WelcomeViewController.swift in Sources */,
+				025D5EAE2914815B001B73CA /* GridPhotoViewController.swift in Sources */,
+				02E97432291045CA00DE37DA /* MoreViewController.swift in Sources */,
+				02E9742E291045AA00DE37DA /* SharpViewController.swift in Sources */,
 				0219DF3C28E805E9001F9103 /* ViewController.swift in Sources */,
+				029EAE5628FA7ED200C92CD3 /* DelegateViewController.swift in Sources */,
 				0219DF3828E805E9001F9103 /* AppDelegate.swift in Sources */,
-				0246FC6528F355AA006560B5 /* KakaoProfileViewController.swift in Sources */,
+				0246FC6528F355AA006560B5 /* ProfileViewController.swift in Sources */,
+				02E9742C2910453C00DE37DA /* ChatCollectionViewController.swift in Sources */,
 				0219DF3A28E805E9001F9103 /* SceneDelegate.swift in Sources */,
 				0219DF4F28E81BA0001F9103 /* SecondViewController.swift in Sources */,
 				0219DF4C28E81593001F9103 /* FirstViewController.swift in Sources */,
+				029EAE6328FA8F4B00C92CD3 /* MusicListViewController.swift in Sources */,
+				02E9742A2910440A00DE37DA /* KaKaoTabbarController.swift in Sources */,
+				027010E82912E0D0003A8635 /* FriendTableViewCell.swift in Sources */,
+				025D5EA629144D5E001B73CA /* MyProfileHeaderView.swift in Sources */,
 				024247AA28F8730900E21138 /* MelonViewController.swift in Sources */,
+				025D5EA829145913001B73CA /* ChatCollectionModel.swift in Sources */,
 				024247AC28F8730900E21138 /* FirstLayoutViewController.swift in Sources */,
-				0246FC6328F34950006560B5 /* KakaoFriendListViewController.swift in Sources */,
-				02327F3728EDFF4300EE7C6B /* KakaoSignupViewController.swift in Sources */,
+				029EAE5B28FA818700C92CD3 /* MusicModel.swift in Sources */,
+				029EAE6828FAA03900C92CD3 /* MusicCollectionViewCell.swift in Sources */,
+				02E97430291045BA00DE37DA /* ShopViewController.swift in Sources */,
+				0246FC6328F34950006560B5 /* FriendListViewController.swift in Sources */,
+				025D5EB2291488C0001B73CA /* GridCollectionViewCell.swift in Sources */,
+				02327F3728EDFF4300EE7C6B /* SignupViewController.swift in Sources */,
+				025D5EAA29146221001B73CA /* ChatCollectionViewCell.swift in Sources */,
+				029EAE6128FA8C8700C92CD3 /* MusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
