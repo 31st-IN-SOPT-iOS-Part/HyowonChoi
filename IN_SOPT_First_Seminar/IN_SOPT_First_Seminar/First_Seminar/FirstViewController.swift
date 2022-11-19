@@ -16,7 +16,7 @@ class FirstViewController: UIViewController {
         return label
     }()
     
-    private let answerTextField:UITextField = {
+    private lazy var answerTextField:UITextField = {
         let textField = UITextField(frame: CGRect(x: 80, y: 280, width: 250, height: 40))
         textField.borderStyle = .roundedRect
         textField.backgroundColor = .systemGray6
@@ -80,3 +80,6 @@ class FirstViewController: UIViewController {
     }
 
 }
+
+
+

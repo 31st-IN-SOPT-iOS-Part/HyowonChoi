@@ -23,8 +23,9 @@ class MelonViewController: UIViewController {
         }
         
         private let topView = UIView().then {
-            $0.backgroundColor = .clear
+            $0.backgroundColor = .white
         }
+
         
         private let standardLabel = UILabel().then {
             $0.text = "오늘 18:00 기준"
